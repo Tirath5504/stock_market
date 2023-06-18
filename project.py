@@ -3,8 +3,8 @@ import streamlit as st
 import yfinance as finance
 
 
-def get_ticker(name):
-    return finance.Ticker(name)
+def get_ticker(tag):
+    return finance.Ticker(tag)
 
 
 def download(tag, start, end):
