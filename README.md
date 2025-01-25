@@ -1,6 +1,6 @@
-# Stock Market
+# Dynamic Stock Market Application (Created for cs50p Final Project 2023 by Tirath Bhathawala)
 
-#### Video Demo: "link"
+#### Video Demo: (https://youtu.be/jlhj8hrLHhA)
 
 #### Description: 
 
@@ -20,24 +20,20 @@ I have devised three custom functions:
     + This function takes in a *comp* and a *time* input as parameters.
     + *comp* is a ticker object containing data about which company (abbreviated) I want the stock market prices.
     + The *time* variable denotes the time duration for which I want the data. 
-    + The function returns data of stock market prices of the mentioned company for the mentioned time period which we
-      can use to tabulate in the form of a graph.
+    + The function returns data of stock market prices of the mentioned company for the mentioned time period which we can use to tabulate in the form of a graph.
   
 
 + download(tag, start, end)
   + This function takes in a *tag*, *start* and an *end* input as parameters.
   + *tag* is a string which provides the stock market code of the company which we want the data of.
   + The *start* and *end* variables denotes the time duration in the day for which I want the stock market price. 
-  + The function returns data of stock market information of the mentioned company for the mentioned time period in the
-  day which we can use to tabulate in the form of a table.
+  + The function returns data of stock market information of the mentioned company for the mentioned time period in the day which we can use to tabulate in the form of a table.
 
 
 + get_ticker(tag)
   + This function takes in only one variable, *tag* as a parameter.
   + *tag* is a string which provides the stock market code of the company which we want the data of.
-  + The function returns a ticket object (from *yfinance* API) which we can use to get all sorts of information of the 
-  above-mentioned company.
+  + The function returns a ticket object (from *yfinance* API) which we can use to get all sorts of information of the above-mentioned company.
   
 
-I have also made a test_project() python file which tests all the above-mentioned functions. It finds the stock market
-of the company ****Tesla.inc**** (*TSLA*).
+I have also made a test_project() python file which tests all the above-mentioned functions. It finds the stock market of the company ****Tesla.inc**** (*TSLA*).
